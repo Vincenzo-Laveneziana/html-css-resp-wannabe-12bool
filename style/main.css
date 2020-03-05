@@ -25,11 +25,6 @@ img{
   text-align: center;
 }
 
-#lezioni .row > .col_6, #lezioni .row > .col_6{
-  padding: 10px;
-}
-
-
 #lezioni .row img{
   padding: 10px;
 }
@@ -39,12 +34,6 @@ img{
 #steps{
   margin: 50px auto;
   text-align: center;
-}
-
-#steps .row > .col_4,
-#steps .row > .col_4,
-#steps .row > .col_4{
-  padding: 10px;
 }
 
 #steps .row.col_lg_4 img{
@@ -57,12 +46,6 @@ img{
 #why{
   text-align: center;
   margin: 50px auto;
-}
-
-#why .row > .col_4,
-#why .row > .col_4,
-#why .row > .col_4{
-  padding: 10px;
 }
 
 #why .row img{

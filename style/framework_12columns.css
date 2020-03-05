@@ -168,17 +168,10 @@
   }
 
   /* div lezioni */
+
   #lezioni h1{
     margin: 30px auto 50px;
   }
-
-
-
-  /* div steps */
-  #steps h1{
-    margin: 10px auto 50px;
-  }
-
 
   #lezioni .row > h3 , p{
     width: 70%;
@@ -186,6 +179,11 @@
   }
 
   /* Div steps */
+
+  #steps h1{
+    margin: 10px auto 50px;
+  }
+
   #steps .row .col_lg_4 .wrapper .col_lg_12 h3{
     margin: 10px auto 0;
     text-align: center;
@@ -200,11 +198,6 @@
   #why h1{
     margin: 10px auto 50px;
   }
-
-
-
-
-
 }
 
 /* MEDIUM SCREEN */
@@ -285,11 +278,11 @@
     width: 100%;
     height: 100%;
   }
+
   #lezioni .row .meta img{
     padding: 5%;
     width: 70%;
   }
-
 
 
   /* div steps */
@@ -338,7 +331,6 @@
     text-align: left;
   }
 
-
   #why .row img{
     padding: 10%;
     height: 95%;
@@ -348,8 +340,129 @@
   .wrapper{
     margin: 50px auto;
   }
+}
+
+@media all and (max-width: 768px) {
+
+  .col_xs_1{
+    width: calc(100% / 12);
+    /* creare un quadrato */
+    /* height: calc(1200px / 12); */
+  }
+
+  .col_xs_2{
+    width: calc((100% / 12) * 2);
+  }
+
+  .col_xs_3{
+    /* width: calc((100% / 12) * 3); */
+    width: 25%;
+  }
+
+  .col_xs_4{
+    width: calc((100% / 12) * 4);
+  }
+
+  .col_xs_5{
+    width: calc((100% / 12) * 5);
+  }
+
+  .col_xs_6{
+    width: 50%;
+  }
+
+  .col_xs_7{
+    width: calc((100% / 12) * 7);
+  }
+
+  .col_xs_8{
+    width: calc((100% / 12) * 8);
+  }
+
+  .col_xs_9{
+    width: calc((100% / 12) * 9);
+  }
+
+  .col_xs_10{
+    width: calc((100% / 12) * 10);
+  }
+
+  .col_xs_11{
+    width: calc((100% / 12) * 11);
+  }
+
+  .col_xs_12{
+    width: 100%;
+  }
+
+  /* div lezioni */
+  #lezioni h1{
+    margin: 30px auto 20px;
+    font-size: 55px;
+  }
+
+  #lezioni h3{
+    font-size: 55px;
+    padding: 10px 0;
+  }
+
+  #lezioni p{
+    width: 90%;
+    font-size: 45px;
+    padding: 10px 0;
+    margin: 0 auto;
+  }
+
+  /* div steps */
+
+  #steps{
+    margin: 150px auto;
+  }
+
+  #steps h1{
+    margin: 10px auto 50px;
+    font-size: 55px;
+  }
+
+  #steps h3{
+    font-size: 50px;
+    padding: 35px 0;
+  }
+
+  #steps  p{
+    width: 100%;
+    font-size: 45px;
+  }
+
+  /* div why */
+
+  #why h1{
+    margin: 10px auto 50px;
+    font-size: 55px;
+  }
+
+  #why h3{
+    font-size: 35px;
+    padding: 10px;
+
+  }
+
+  #why  p{
+    width: 100%;
+    font-size: 45px;
+    padding: 15px 10px;
+
+  }
+
+  .wrapper{
+    margin: 70px auto;
+  }
+
 
 }
+
+
+
 
 
 
