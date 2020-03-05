@@ -1,0 +1,319 @@
+/* Columns container  */
+.container{
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.container::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+
+/* Columns Style*/
+[class^="col_"]{
+  text-align: center;
+  float: left;
+  padding: 5px;
+}
+
+
+
+
+/* Offeset */
+.offset_0_5{
+  margin-left: calc((100% / 12) * 0.5);
+}
+
+.offset_1{
+  margin-left: calc(100% / 12);
+}
+
+.offset_1_5{
+  margin-left: calc((100% / 12) * 1.5);
+}
+
+.offset_2{
+  margin-left: calc((100% / 12) * 2);
+}
+
+.offset_2_5{
+  margin-left: calc((100% / 12) * 2.5);
+}
+
+.offset_3{
+  margin-left: calc((100% / 12) * 3);
+}
+
+.offset_3_5{
+  margin-left: calc((100% / 12) * 3.5);
+}
+
+.offset_4{
+  margin-left: calc((100% / 12) * 4);
+}
+
+.offset_4_5{
+  margin-left: calc((100% / 12) * 4.5);
+}
+
+.offset_5{
+  margin-left: calc((100% / 12) * 5);
+}
+
+.offset_5_5{
+  margin-left: calc((100% / 12) * 5.5);
+}
+
+.offset_6{
+  margin-left: calc((100% / 12) * 6);
+}
+
+.offset_6_5{
+  margin-left: calc((100% / 12) * 6.5);
+}
+
+.offset_7{
+  margin-left: calc((100% / 12) * 7);
+}
+
+.offset_7_5{
+  margin-left: calc((100% / 12) * 7.5);
+}
+
+.offset_8{
+  margin-left: calc((100% / 12) * 8);
+}
+
+.offset_8_5{
+  margin-left: calc((100% / 12) * 8.5);
+}
+
+.offset_9{
+  margin-left: calc((100% / 12) * 9);
+}
+
+.offset_9_5{
+  margin-left: calc((100% / 12) * 9.5);
+}
+
+.offset_10{
+  margin-left: calc((100% / 12) * 10);
+}
+
+.offset_10_5{
+  margin-left: calc((100% / 12) * 10.5);
+}
+
+.offset_11{
+  margin-left: calc((100% / 12) * 11);
+}
+
+/* BIG SCREEN */
+@media all and (min-width: 1200px) {
+
+  /* columns dimension */
+  .col_lg_1{
+    width: calc(100% / 12);
+    /* creare un quadrato */
+    /* height: calc(1200px / 12); */
+  }
+
+  .col_lg_2{
+    width: calc((100% / 12) * 2);
+  }
+
+  .col_lg_3{
+    /* width: calc((100% / 12) * 3); */
+    width: 25%;
+  }
+
+  .col_lg_4{
+    width: calc((100% / 12) * 4);
+  }
+
+  .col_lg_5{
+    width: calc((100% / 12) * 5);
+  }
+
+  .col_lg_6{
+    width: 50%;
+  }
+
+  .col_lg_7{
+    width: calc((100% / 12) * 7);
+  }
+
+  .col_lg_8{
+    width: calc((100% / 12) * 8);
+  }
+
+  .col_lg_9{
+    width: calc((100% / 12) * 9);
+  }
+
+  .col_lg_10{
+    width: calc((100% / 12) * 10);
+  }
+
+  .col_lg_11{
+    width: calc((100% / 12) * 11);
+  }
+
+  .col_lg_12{
+    width: 100%;
+  }
+
+  /* div lezioni */
+  #lezioni h1{
+    margin: 30px auto 50px;
+  }
+
+
+
+  /* div steps */
+  #steps h1{
+    margin: 10px auto 50px;
+  }
+
+
+  #lezioni .row > h3 , p{
+    width: 70%;
+    margin: 10px auto 0;
+  }
+
+  /* Div steps */
+  #steps .row .col_lg_4 .wrapper .col_lg_12 h3{
+    margin: 10px auto 0;
+    text-align: center;
+  }
+
+  #steps .row .col_lg_4 .wrapper .col_lg_12 p{
+    margin: 10px auto 0;
+    text-align: center;
+  }
+
+
+}
+
+/* MEDIUM SCREEN */
+@media all and (min-width: 769px) and (max-width: 1199px){
+
+  .col_md_1{
+    width: calc(100% / 12);
+    /* creare un quadrato */
+    /* height: calc(1200px / 12); */
+  }
+
+  .col_md_2{
+    width: calc((100% / 12) * 2);
+  }
+
+  .col_md_3{
+    /* width: calc((100% / 12) * 3); */
+    width: 25%;
+  }
+
+  .col_md_4{
+    width: calc((100% / 12) * 4);
+  }
+
+  .col_md_5{
+    width: calc((100% / 12) * 5);
+  }
+
+  .col_md_6{
+    width: 50%;
+  }
+
+  .col_md_7{
+    width: calc((100% / 12) * 7);
+  }
+
+  .col_md_8{
+    width: calc((100% / 12) * 8);
+  }
+
+  .col_md_9{
+    width: calc((100% / 12) * 9);
+  }
+
+  .col_md_10{
+    width: calc((100% / 12) * 10);
+  }
+
+  .col_md_11{
+    width: calc((100% / 12) * 11);
+  }
+
+  .col_md_12{
+    width: 100%;
+  }
+
+  /* div lezioni */
+  #lezioni h1{
+    margin: 30px auto 50px;
+    font-size: 55px;
+  }
+
+  #lezioni .row .col_md_12 .wrapper .col_md_8 > h3{
+    font-size: 30px;
+    padding: 10px 0;
+    text-align: left;
+  }
+
+  #lezioni .row .col_md_12 .wrapper .col_md_8 > p{
+    width: 100%;
+    font-size: 35px;
+    padding: 10px 0;
+    text-align: left;
+  }
+
+  #lezioni .row img{
+    padding: 5px;
+    width: 80%;
+  }
+
+
+
+  /* div steps */
+  #steps h1{
+    margin: 10px auto 50px;
+    font-size: 55px;
+  }
+
+  #steps .row .col_md_12 .wrapper .col_md_8 > h3{
+    font-size: 30px;
+    padding: 15px 0;
+    text-align: left;
+  }
+
+  #steps .row .col_md_12 .wrapper .col_md_8 > p{
+    width: 100%;
+    font-size: 35px;
+    padding: 15px 0;
+    text-align: left;
+  }
+
+  .wrapper{
+    margin: 50px auto;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */

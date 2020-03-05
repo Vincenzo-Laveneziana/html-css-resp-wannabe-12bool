@@ -1,0 +1,89 @@
+/* generals */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  height: 200px;
+}
+
+.row{
+  /* margin-top: 100px; */
+  padding: 25px;
+}
+
+.container.grey{
+  background-color: #f9f9f9;
+}
+
+
+/* BLOCCO LEZIONI */
+
+#lezioni{
+  text-align: center;
+}
+
+#lezioni .row > .col_6, #lezioni .row > .col_6{
+  padding: 10px;
+}
+
+
+#lezioni .row img{
+  padding: 10px;
+}
+
+
+
+
+/* BLOCCO STEPS */
+#steps{
+  margin: 50px auto;
+  text-align: center;
+}
+
+#steps .row > .col_4,
+#steps .row > .col_4,
+#steps .row > .col_4{
+  padding: 10px;
+}
+
+#steps .row.col_lg_4 img{
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+/* BLOCCO PERCHE */
+#why{
+  text-align: center;
+  margin: 50px auto;
+}
+
+#why .row > .col_4,
+#why .row > .col_4,
+#why .row > .col_4{
+  padding: 10px;
+}
+
+#why h1{
+  margin: 10px auto 50px;
+}
+
+#why .row img{
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+/* #why h3 , p{
+  width: 70%;
+  margin: 10px auto ;
+} */
+
+
+
+
+/* COMMON */
