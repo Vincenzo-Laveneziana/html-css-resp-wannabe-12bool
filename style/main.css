@@ -35,8 +35,6 @@ img{
 }
 
 
-
-
 /* BLOCCO STEPS */
 #steps{
   margin: 50px auto;
@@ -67,22 +65,12 @@ img{
   padding: 10px;
 }
 
-#why h1{
-  margin: 10px auto 50px;
-}
-
 #why .row img{
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px;
   margin-bottom: 20px;
 }
-
-/* #why h3 , p{
-  width: 70%;
-  margin: 10px auto ;
-} */
-
 
 
 
